@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00467F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100px;
+    padding: 0 60px;
+    color: white;
+    font-size: 30px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 28px;
+    display: inline-block;
+    border-left: 1px solid white;
+}
+
+header ul li a:hover {
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header ul li {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+header ul li .submit,
+header ul li .rajister {
+    flex-direction: column;
+    position: absolute;
+    background: #00467F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    top: 100px;
+    width: 180px;
+    display: none;
+    border-bottom-right-radius:10px ;
+
+}
+
+header .submit .dropdown2 {
+    display: none;
+    right: 100%;
+    top: 0;
+    width: 180px;
+    
+}
+
+header ul li:hover .submit,
+header ul li:hover .rajister {
+    display: flex;
+    border-bottom-right-radius:10px ;
+}
+
+header ul li .submit li:hover .dropdown2 {
+    display: flex;
+    background: #00467F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A5CC82, #00467F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+
+}
+
+.submit li a {
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+.rajister li a {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid white;
+
+
+}
+
+.rajister li a:hover,
+.submit li a:hover {
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.submit ul li {
+    position: relative;
+}
+
+.dropdown2 {
+    flex-direction: column;
+    background: #076585;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    right: 60px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+
+}
